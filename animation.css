@@ -1,0 +1,44 @@
+/* Example CSS for animations */
+
+/* Example of animating the top bar color change */
+.top-bar {
+    transition: background-color 0.3s ease;
+}
+
+/* Example of animating the download button */
+.download-button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #00a84f; /* Adjust color as needed */
+    transform: scale(1.05); /* Example of scaling effect on hover */
+}
+
+/* Example of animating the profile image */
+.image-2-icon {
+    transition: transform 0.3s ease;
+}
+
+.image-2-icon:hover {
+    transform: rotate(10deg); /* Example of rotation effect on hover */
+}
+
+/* Example of animating the language sliders */
+input[type="range"] {
+    transition: width 0.3s ease;
+}
+
+input[type="range"]:hover {
+    width: 90%; /* Example of expanding width on hover */
+}
+
+/* Example of animating tags in Interests section */
+.tag-13, .tag-14, .tag-15, .tag-16, .tag-17, .tag-18, .tag-19, .tag-110, .tag-111, .tag-112 {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tag-13:hover, .tag-14:hover, .tag-15:hover, .tag-16:hover, .tag-17:hover, .tag-18:hover, .tag-19:hover, .tag-110:hover, .tag-111:hover, .tag-112:hover {
+    background-color: #ffd700; /* Example of changing background color on hover */
+    transform: scale(1.1); /* Example of scaling effect on hover */
+}
